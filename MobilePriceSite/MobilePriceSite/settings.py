@@ -100,6 +100,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://mobileprice-284279361159.us-central1.run.app'
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
